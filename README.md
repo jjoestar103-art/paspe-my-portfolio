@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Portfolio (Next.js + TypeScript + Tailwind)
 
-## Getting Started
+## Project Overview
+This portfolio website is built with Next.js, TypeScript, and Tailwind CSS. It uses a component-based structure so each part of the site is reusable, organized, and easy to maintain.
 
-First, run the development server:
+## Features
+- Responsive hero section
+- About section with skills and education
+- Projects section using reusable cards
+- Contact form with simulated submit state
+- Sticky header with mobile navigation
+- Footer with social links and site navigation
+
+## Tech Stack
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- React
+
+## Folder Structure
+```text
+src/
+  app/
+    page.tsx
+    layout.tsx
+  components/
+    layout/
+      Header.tsx
+      Footer.tsx
+      Navigation.tsx
+    ui/
+      Button.tsx
+      Card.tsx
+    sections/
+      Hero.tsx
+      About.tsx
+      Projects.tsx
+      Contact.tsx
+  lib/
+    types.ts
+```
+
+## Setup Instructions
+1. Install Node.js 18 or higher.
+2. Create the Next.js project:
+
+```bash
+npx create-next-app@latest my-portfolio --typescript --tailwind --app
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open the app in your browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Development Notes
+- Use the `Button` component for all main call-to-action buttons.
+- Use the `Card` component for project cards.
+- Update the project data inside `src/components/sections/Projects.tsx`.
+- Update contact details inside `src/components/sections/Contact.tsx` and `src/components/layout/Footer.tsx`.
+- Update personal information inside `src/components/sections/About.tsx` and `src/components/sections/Hero.tsx`.
 
-## Learn More
+## Build and Test
+Before submission, run:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+If the build is successful, the app is ready for deployment.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment to Vercel
+1. Push the code to GitHub.
+2. Log in to Vercel.
+3. Import the GitHub repository.
+4. Let Vercel detect Next.js automatically.
+5. Deploy the project.
 
-## Deploy on Vercel
+## Links
+- 🔗 [GitHub Repository](https://github.com/jjoestar103-art/paspe-my-portfolio)
+- 🌐 [Live Website](https://paspe-my-portfolio.vercel.app)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📸 Screenshot
+![Homepage Screenshot](public/images/screenshot.png)
