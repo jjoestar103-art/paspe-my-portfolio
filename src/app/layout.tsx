@@ -4,10 +4,10 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 
 export const metadata: Metadata = {
-  title: 'Samuel Josh Paspe | Frontend Developer',
+  title: 'Samuel Josh Paspe | Basic Web Developer',
   description:
-    'Portfolio of Samuel Josh Paspe — Frontend Developer specializing in React, Next.js, and TypeScript.',
-  keywords: ['frontend developer', 'portfolio', 'react', 'nextjs', 'typescript'],
+    'Portfolio of Samuel Josh Paspe — Basic Web Developer specializing in React, Next.js, and TypeScript.',
+  keywords: ['basic web developer', 'portfolio', 'react', 'nextjs', 'typescript'],
   authors: [{ name: 'Samuel Josh Paspe' }],
   openGraph: {
     title: 'Samuel Josh Paspe | Basic Web Developer',
