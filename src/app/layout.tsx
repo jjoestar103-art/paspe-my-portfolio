@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   keywords: ['frontend developer', 'portfolio', 'react', 'nextjs', 'typescript'],
   authors: [{ name: 'Samuel Josh Paspe' }],
   openGraph: {
-    title: 'Samuel Josh Paspe | Frontend Developer',
+    title: 'Samuel Josh Paspe | Basic Web Developer',
     description: 'Frontend Developer specializing in React, Next.js, and TypeScript.',
     type: 'website',
   },
